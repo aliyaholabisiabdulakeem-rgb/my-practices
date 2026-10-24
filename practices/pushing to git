@@ -1,0 +1,14 @@
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/aliyaholabisiabdulakeem-rgb/100-days-of-javaScript.git
+git push -u origin main
+
+
+
+const add = function(a, b) {
+  return a + b;
+};
+
+console.log(add(5, 3));
